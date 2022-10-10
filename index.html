@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, user-scalable=no">
+  <link rel="stylesheet" href="staile.css" />
+  <link rel="stylesheet" href="main.js">
+  <script defer type="text/javascript" src="main.js"></script>
+  <title>Ювелирный магазин</title>
+</head>
+
+<body>
+  <div class="blur  inactive">
+    <div class="section">
+      <button class="section__btn">✖</button>
+      <h1 class="section__title">Связаться с нами:</h1>
+      <div class="section__box">
+        <div class="section__row">
+          <div class="row__socials  VK "></div>
+          <div class="row__link-networking">
+            <a href="http://">9 852 855-87-20</a>
+          </div>
+        </div>
+        <div class="section__row">
+          <div class="row__socials Whatapp "></div>
+          <div class="row__link-networking   ">
+            <a href="http://">Группа ВК</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+  <main class="main ">
+    <div class="offer">
+      <div class="offer__content">
+        <h1 class="offer__title">Ювелирные изделия</h1>
+        <p class="offer__slogan">
+          Вы не видели ничего подобного, ведь такое есть только у нас!
+        </p>
+        <p class="offer__desc">
+          Эксклюзивные изделия ручной работы украсят интерьер вашего дома или станут оригинальным подарком.
+        </p>
+        <button class="offer__btn">Связатся с нами</button>
+      </div>
+    </div>
+    <div class="product">
+      <div id="slider">
+        <div class="slide fade">
+          <img src="img/ring.png" style="width: 100%" alt="">
+          <div class="text">2500руб</div>
+        </div>
+        <div class="slide fade">
+          <img src="img/ring2.png" style="width: 100%" alt="">
+          <div class="text">5200руб</div>
+        </div>
+        <div class="slide fade">
+          <img src="img/ring3.png" style="width: 100%" alt="">
+          <div class="text">3000руб</div>
+        </div>
+        <a class="prev" onclick="plusSlides(-1)">
+          <img src="img/arrow-left.png" alt="">
+        </a>
+        <a class="next" onclick="plusSlides(1)">
+          <img src="img/arrow-right.png" alt="">
+        </a>
+      </div>
+      <br>
+      <div style="text-align: center;">
+        <span class="dot active" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+      </div>
+      <!-- <img class="product" src="img/ring.png" alt="кольцо-модель№19" /> -->
+    </div>
+    <main />
+</body>
+
+</html>
